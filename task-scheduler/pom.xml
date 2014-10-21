@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>captura-factilidades</artifactId>
+        <groupId>com.claro.cfc</groupId>
+        <version>2.5</version>
+    </parent>
+
+    <version>1.5</version>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>task-scheduler</artifactId>
+    <packaging>pom</packaging>
+    <name>CFC Task Scheduler Bundles</name>
+
+    <description>
+        Este modulo se encargara de  distribuir de manera expansiva cada a cada uno de los sistemas de integracion
+        con CFC las actualziaciones de las facilidades digitadas por los tecnicos.
+    </description>
+
+
+    <profiles>
+        <profile>
+            <id>develop</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <modules>
+                <module>oss-specification</module>
+                <module>oss-loader</module>
+                <module>oss-scheduler</module>
+                <module>scheduler-manager</module>
+                <module>oss-geff-client</module>
+                <module>oss-m6-client</module>
+                <module>oss-environments</module>
+                <module>oss-utils</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>staging</id>
+            <modules>
+                <module>oss-specification</module>
+                <module>oss-loader</module>
+                <module>oss-scheduler</module>
+                <module>scheduler-manager</module>
+                <module>oss-geff-client</module>
+                <module>oss-m6-client</module>
+                <module>oss-environments</module>
+                <module>oss-utils</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>production</id>
+            <modules>
+                <module>oss-specification</module>
+                <module>oss-loader</module>
+                <module>oss-scheduler</module>
+                <module>scheduler-manager</module>
+                <module>oss-geff-client</module>
+                <module>oss-m6-client</module>
+                <module>oss-environments</module>
+                <module>oss-utils</module>
+            </modules>
+        </profile>
+    </profiles>
+</project>

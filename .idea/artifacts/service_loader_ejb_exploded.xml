@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="service-loader:ejb exploded">
+    <output-path>$PROJECT_DIR$/task-scheduler/service-loader/target/service-loader-1.5</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="service-loader/ejb/EJB" />
+      <element id="module-output" name="service-loader" />
+    </root>
+  </artifact>
+</component>

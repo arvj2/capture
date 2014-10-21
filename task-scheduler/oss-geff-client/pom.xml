@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>task-scheduler</artifactId>
+        <groupId>com.claro.cfc</groupId>
+        <version>1.5</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>oss-geff-client</artifactId>
+    <name>CFC OSS GEFF Client Bundles</name>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+
+
+    <modules>
+        <module>oss-geff</module>
+        <module>oss-geff-activator</module>
+    </modules>
+
+</project>

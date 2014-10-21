@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="cfc-webear:ear exploded">
+    <output-path>$PROJECT_DIR$/web-apps/cfc-webear/target/cfc-webear-2.5</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="cfc-webear/javaeeApplication/JavaEE" />
+      <element id="dir-copy" path="$PROJECT_DIR$/web-apps/cfc-webear/src/main/application" />
+      <element id="archive" name="cfc-webroot-2.5.war">
+        <element id="artifact" artifact-name="cfc-webroot:war exploded" />
+      </element>
+      <element id="archive" name="cfc-webapp-2.5.war">
+        <element id="artifact" artifact-name="cfc-webapp:war exploded" />
+      </element>
+      <element id="archive" name="support-services-2.5.war">
+        <element id="artifact" artifact-name="support-services:war exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>

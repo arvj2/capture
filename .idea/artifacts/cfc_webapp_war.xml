@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cfc-webapp:war">
+    <output-path>$PROJECT_DIR$/web-apps/cfc-webapp/target</output-path>
+    <root id="archive" name="cfc-webapp-2.5.war">
+      <element id="artifact" artifact-name="cfc-webapp:war exploded" />
+    </root>
+  </artifact>
+</component>

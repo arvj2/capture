@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3047414833">
+    <data-source source="LOCAL" name="hibernate.cfg.xml" uuid="6c652118-9686-44ae-b44f-a1a6ea83135e">
+      <driver-ref>oracle</driver-ref>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//172.27.6.78:1521/appceltec</jdbc-url>
+      <user-name>APPCAPFAC</user-name>
+      <user-password>dfe4dff8dfcfdf9fdf92dffedfe7dfe6dfcedfc1</user-password>
+      <libraries>
+        <library>
+          <url>file://C:\Users\Jansel Rodriguez\.m2\repository\oracle\jdbc\ojdbc\6\ojdbc-6.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+

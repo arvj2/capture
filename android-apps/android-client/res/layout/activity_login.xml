@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:custom="http://schemas.android.com/apk/res/com.claro.cfcmobile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+        >
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_light"
+            android:paddingBottom="@dimen/dp_10"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+
+        <include layout="@layout/include_logo_view"/>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:id="@+id/imei_content"
+                android:layout_below="@id/logo_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+            <com.claro.cfcmobile.widget.TextView
+                    android:id="@+id/imei_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sp_userName"
+                    custom:typeface="robotoLight"
+                    android:textSize="@dimen/splash_screen_text"/>
+
+            <com.claro.cfcmobile.widget.TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sp_userName"
+                    custom:typeface="robotoLight"
+                    android:textSize="@dimen/sp_15"/>
+        </LinearLayout>
+
+        <EditText
+                android:layout_below="@id/imei_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/dp_16"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:hint="@string/hint_tarjeta"
+                android:id="@id/tarjeta_edit"/>
+
+
+        <ViewFlipper android:id="@id/feedback_flipper2"
+                     android:layout_width="match_parent"
+                     android:layout_alignParentBottom="true"
+                     android:layout_height="wrap_content">
+            <Button
+                    android:onClick="onLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/selector_red_button"
+                    android:text="@string/btn_login"
+                    android:id="@id/button1"/>
+
+            <FrameLayout
+                    android:id="@id/feedback_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_60">
+
+                <include layout="@layout/include_feedback_view"/>
+
+            </FrameLayout>
+
+        </ViewFlipper>
+
+
+    </RelativeLayout>
+
+</ScrollView>

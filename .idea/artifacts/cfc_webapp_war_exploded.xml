@@ -1,0 +1,65 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cfc-webapp:war exploded">
+    <output-path>$PROJECT_DIR$/web-apps/cfc-webapp/target/cfc-webapp-2.5</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="cfc-webapp/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cfc-webapp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/com/claro/pawapi/2.0.2/PAWAPI-2.0.2.jar" output-file-name="pawapi-2.0.2.jar" />
+          <element id="library" level="project" name="Maven: com.claro:SADLogger:1.3.0" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.1.2" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.1.2" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.5.8" />
+          <element id="library" level="project" name="Maven: org.slf4j:log4j-over-slf4j:1.7.7" />
+          <element id="library" level="project" name="Maven: javax.jws:jsr181-api:1.0-MR1" />
+          <element id="library" level="project" name="Maven: com.sun.xml.ws:jaxws-rt:2.1.5" />
+          <element id="library" level="project" name="Maven: javax.xml.ws:jaxws-api:2.2.1" />
+          <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.2.1" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-impl:2.1.9" />
+          <element id="library" level="project" name="Maven: com.sun.xml.messaging.saaj:saaj-impl:1.3.2" />
+          <element id="library" level="project" name="Maven: javax.xml.soap:saaj-api:1.3.1" />
+          <element id="library" level="project" name="Maven: com.sun.xml.stream.buffer:streambuffer:0.8" />
+          <element id="library" level="project" name="Maven: org.jvnet.staxex:stax-ex:1.2" />
+          <element id="library" level="project" name="Maven: junit:junit:3.8" />
+          <element id="library" level="project" name="Maven: woodstox:wstx-asl:3.2.3" />
+          <element id="library" level="project" name="Maven: com.sun.org.apache.xml.internal:resolver:20050927" />
+          <element id="library" level="project" name="Maven: org.jvnet:mimepull:1.3" />
+          <element id="library" level="project" name="Maven: javax.annotation:jsr250-api:1.0" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.2.4" />
+          <element id="archive" name="cfc-persistence-2.5.jar">
+            <element id="module-output" name="cfc-persistence" />
+          </element>
+          <element id="archive" name="cfc-transport-utils-2.5.jar">
+            <element id="module-output" name="cfc-transport-utils" />
+          </element>
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.hibernate:ejb3-persistence:1.0.2.GA" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:3.3.2.GA" />
+          <element id="library" level="project" name="Maven: antlr:antlr:2.7.6" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.1" />
+          <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
+          <element id="library" level="project" name="Maven: javax.transaction:jta:1.1" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-annotations:3.3.1.GA" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate:3.2.6.ga" />
+          <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache:1.2.3" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.0.4" />
+          <element id="library" level="project" name="Maven: asm:asm-attrs:1.5.3" />
+          <element id="library" level="project" name="Maven: cglib:cglib:2.1_3" />
+          <element id="library" level="project" name="Maven: asm:asm:1.5.3" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-commons-annotations:3.0.0.ga" />
+          <element id="library" level="project" name="Maven: oracle.jdbc:ojdbc:6" />
+          <element id="archive" name="cfc-app-updater-2.5.jar">
+            <element id="module-output" name="cfc-app-updater" />
+          </element>
+          <element id="archive" name="cfc-environments-2.5.jar">
+            <element id="module-output" name="cfc-environments" />
+          </element>
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

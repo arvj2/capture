@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="oss-geff-activator:ejb">
+    <output-path>$PROJECT_DIR$/task-scheduler/oss-geff-client/oss-geff-activator/target</output-path>
+    <root id="archive" name="oss-geff-activator-1.0.jar">
+      <element id="artifact" artifact-name="oss-geff-activator:ejb exploded" />
+    </root>
+  </artifact>
+</component>

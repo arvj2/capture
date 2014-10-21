@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:custom="http://schemas.android.com/apk/res/com.claro.cfcmobile"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:paddingTop="8dp"
+              android:paddingBottom="8dp"
+              android:gravity="center_vertical"
+              android:focusableInTouchMode="false"
+              android:focusable="false"
+              android:descendantFocusability="blocksDescendants"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="vertical"
+            android:layout_gravity="left">
+
+        <com.claro.cfcmobile.widget.TextView
+                android:id="@id/item_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25564124"
+                custom:typeface="robotoLight"
+                android:textSize="16sp"
+                />
+
+        <com.claro.cfcmobile.widget.TextView
+                android:id="@id/item_sent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enviada"
+                custom:typeface="robotoBold"
+                android:layout_toRightOf="@id/item_id"
+                android:layout_alignBaseline="@id/item_id"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:padding="@dimen/dp_4"
+                android:visibility="invisible"
+                android:background="@android:color/holo_green_light"
+                android:textColor="@android:color/white"
+                />
+
+        <com.claro.cfcmobile.widget.TextView
+                android:id="@id/item_di_type"
+                android:layout_marginTop="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ORDEN"
+                android:textSize="12sp"
+                android:textColor="@android:color/white"
+                android:padding="4dp"
+                custom:typeface="robotoBold"
+                android:background="@drawable/bg_item_type_ticket"
+                android:layout_below="@id/item_id"
+                />
+        <com.claro.cfcmobile.widget.TextView
+                android:id="@id/item_tech"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COBRE"
+                android:textSize="12sp"
+                custom:typeface="robotoLight"
+                android:layout_alignParentRight="true"
+                />
+
+
+        <com.claro.cfcmobile.widget.TextView
+                android:id="@id/item_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="February 12-2014"
+                android:textSize="10sp"
+                custom:typeface="robotoLight"
+                android:layout_alignBaseline="@id/item_di_type"
+                android:layout_alignParentRight="true"
+                />
+
+    </RelativeLayout>
+
+    <ImageButton
+            android:id="@id/app_overflow_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_right"
+            android:contentDescription="empty"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="4dp"
+            />
+
+</LinearLayout>

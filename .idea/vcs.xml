@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/android-apps/android-client" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/android-apps/otaupdater" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/task-scheduler" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/tasks-report" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/web-apps/cfc-app-updater" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/web-apps/cfc-environments" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/web-apps/cfc-persistence" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/web-apps/cfc-services" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/web-apps/cfc-transport-utils" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/web-apps/cfc-webroot" vcs="svn" />
+  </component>
+</project>
+

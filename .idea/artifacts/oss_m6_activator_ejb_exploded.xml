@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="oss-m6-activator:ejb exploded">
+    <output-path>$PROJECT_DIR$/task-scheduler/oss-m6-client/oss-m6-activator/target/oss-m6-activator-1.0</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="oss-m6-activator/ejb/EJB" />
+      <element id="module-output" name="oss-m6-activator" />
+    </root>
+  </artifact>
+</component>

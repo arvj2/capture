@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>oss-geff-client</artifactId>
+        <groupId>com.claro.cfc</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>oss-geff</artifactId>
+    <name>CFC OSS GEFF Client</name>
+    <packaging>ear</packaging>
+
+
+    <profiles>
+        <profile>
+            <id>develop</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>com.oracle.weblogic</groupId>
+                        <artifactId>weblogic-maven-plugin</artifactId>
+                        <version>10.3.6.0</version>
+                        <configuration>
+                            <adminurl>t3://localhost:7001</adminurl>
+                            <user>weblogic</user>
+                            <password>w3bl0g1c</password>
+                            <upload>true</upload>
+                            <action>deploy</action>
+                            <remote>false</remote>
+                            <verbose>true</verbose>
+                            <source>${project.build.directory}/${project.build.finalName}.${project.packaging}</source>
+                            <name>${project.build.finalName}</name>
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <phase>install</phase>
+                                <goals>
+                                    <goal>deploy</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+        <profile>
+            <id>staging</id>
+
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>com.oracle.weblogic</groupId>
+                        <artifactId>weblogic-maven-plugin</artifactId>
+                        <version>10.3.6.0</version>
+                        <configuration>
+                            <adminurl>t3://172.27.17.161:8020/</adminurl>
+                            <user>UsrCapFaCel</user>
+                            <password>Codetel01</password>
+                            <upload>true</upload>
+                            <action>deploy</action>
+                            <remote>true</remote>
+                            <verbose>true</verbose>
+                            <source>${project.build.directory}/${project.build.finalName}.${project.packaging}</source>
+                            <name>${project.build.finalName}</name>
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <phase>install</phase>
+                                <goals>
+                                    <goal>deploy</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+        <profile>
+            <id>production</id>
+
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>com.oracle.weblogic</groupId>
+                        <artifactId>weblogic-maven-plugin</artifactId>
+                        <version>10.3.6.0</version>
+                        <!--<configuration>-->
+                        <!--<adminurl>t3://localhost:7001</adminurl>-->
+                        <!--<user>weblogic</user>-->
+                        <!--<password>w3bl0g1c</password>-->
+                        <!--<upload>true</upload>-->
+                        <!--<action>deploy</action>-->
+                        <!--<remote>false</remote>-->
+                        <!--<verbose>true</verbose>-->
+                        <!--<source>${project.build.directory}/${project.build.finalName}.${project.packaging}</source>-->
+                        <!--<name>${project.build.finalName}</name>-->
+                        <!--</configuration>-->
+                        <executions>
+                            <execution>
+                                <phase>install</phase>
+                                <goals>
+                                    <goal>deploy</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-ear-plugin</artifactId>
+                <version>2.6</version>
+                <configuration>
+                    <defaultLibBundleDir>lib</defaultLibBundleDir>
+                    <modules>
+                        <ejbModule>
+                            <groupId>com.claro.cfc</groupId>
+                            <artifactId>oss-geff-activator</artifactId>
+                        </ejbModule>
+                    </modules>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.claro.cfc</groupId>
+            <artifactId>oss-geff-activator</artifactId>
+            <version>${project.version}</version>
+            <type>ejb</type>
+        </dependency>
+    </dependencies>
+
+
+</project>

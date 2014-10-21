@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>oss-geff-client</artifactId>
+        <groupId>com.claro.cfc</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>oss-geff-activator</artifactId>
+    <name>CFC OSS GEFF Client Activator</name>
+    <packaging>ejb</packaging>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>com.claro.cfc</groupId>
+            <artifactId>oss-specification</artifactId>
+            <version>1.5</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.claro.cfc</groupId>
+            <artifactId>oss-utils</artifactId>
+            <version>1.5</version>
+        </dependency>
+
+        <dependency>
+        <groupId>com.claro.cfc</groupId>
+        <artifactId>oss-environments</artifactId>
+        <version>1.0</version>
+    </dependency>
+
+        <dependency>
+            <groupId>javax.ejb</groupId>
+            <artifactId>ejb-api</artifactId>
+            <version>3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+
+    </dependencies>
+
+
+    <build>
+        <resources>
+            <resource>
+                <directory>${project.basedir}/src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+            <resource>
+                <directory>${project.basedir}/src/main/META-INF</directory>
+                <targetPath>META-INF</targetPath>
+            </resource>
+        </resources>
+
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>properties-maven-plugin</artifactId>
+                <version>1.0-alpha-2</version>
+                <executions>
+                    <execution>
+                        <phase>initialize</phase>
+                        <goals>
+                            <goal>read-project-properties</goal>
+                        </goals>
+                        <configuration>
+                            <files>
+                                <file>${environment.file}</file>
+                            </files>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-ejb-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifestFile>${project.basedir}/src/main/META-INF/MANIFEST.MF</manifestFile>
+                    </archive>
+                    <ejbVersion>3.0</ejbVersion>
+                    <clientIncludes>
+                        <include>${project.basedir}/src/main/META-INF/weblogic-ejb.xml</include>
+                    </clientIncludes>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <profiles>
+        <profile>
+            <id>develop</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <environment.file>${project.basedir}/src/main/filters/develop/env.properties</environment.file>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>staging</id>
+            <properties>
+                <environment.file>${project.basedir}/src/main/filters/staging/env.properties</environment.file>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>production</id>
+            <properties>
+                <environment.file>${project.basedir}/src/main/filters/production/env.properties</environment.file>
+            </properties>
+        </profile>
+    </profiles>
+
+</project>

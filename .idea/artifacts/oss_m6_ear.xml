@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="oss-m6:ear">
+    <output-path>$PROJECT_DIR$/task-scheduler/oss-m6-client/oss-m6/target</output-path>
+    <root id="archive" name="oss-m6-1.0.ear">
+      <element id="artifact" artifact-name="oss-m6:ear exploded" />
+    </root>
+  </artifact>
+</component>

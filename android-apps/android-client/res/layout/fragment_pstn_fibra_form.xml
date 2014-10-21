@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:self="http://schemas.android.com/apk/res/com.claro.cfcmobile"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:paddingTop="@dimen/activity_vertical_padding"
+            android:paddingBottom="@dimen/activity_vertical_padding"
+            android:fillViewport="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:paddingLeft="@dimen/activity_horizontal_padding"
+                  android:paddingRight="@dimen/activity_horizontal_padding"
+                  android:layout_height="match_parent">
+
+
+        <com.claro.cfcmobile.widget.TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dp_4"
+                android:paddingBottom="@dimen/dp_4"
+                android:paddingLeft="@dimen/dp_4"
+                android:text="@string/label_phone"
+                android:singleLine="true"
+                android:background="@color/gray_base_translucent_2"
+                android:ellipsize="marquee"
+                style="@style/Widget.AppCompat.TextView"
+                />
+
+
+        <com.claro.cfcmobile.widget.MaskedEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:id="@id/edit_phone"
+                android:singleLine="true"
+                self:mask="@string/mask_phone"
+                android:hint="@string/mask_phone"
+                />
+
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_4"
+                        android:layout_marginBottom="@dimen/dp_4"
+                >
+
+            <com.claro.cfcmobile.widget.TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/dp_4"
+                    android:paddingBottom="@dimen/dp_4"
+                    android:text="@string/label_cuenta_fija"
+                    android:singleLine="true"
+                    android:paddingLeft="@dimen/dp_4"
+                    android:ellipsize="marquee"
+                    style="@style/Widget.AppCompat.TextView"
+                    android:id="@android:id/text1"
+                    />
+
+            <CheckBox android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:id="@id/edit_cuenta_fija"
+                      android:layout_alignParentRight="true"
+                      android:layout_alignBaseline="@android:id/text1"
+                    />
+        </RelativeLayout>
+
+        <com.claro.cfcmobile.widget.TextView
+                android:id="@id/label_cabina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dp_4"
+                android:paddingBottom="@dimen/dp_4"
+                android:paddingLeft="@dimen/dp_4"
+                android:text="@string/label_cabina"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:background="@color/blue_base_translucent_2"
+                style="@style/Widget.AppCompat.TextView"
+                />
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:id="@id/edit_cabina"
+                android:singleLine="true"
+                />
+
+        <com.claro.cfcmobile.widget.TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dp_4"
+                android:paddingBottom="@dimen/dp_4"
+                android:text="@string/label_localidad"
+                android:paddingLeft="@dimen/dp_4"
+                android:singleLine="true"
+                android:background="@color/gray_base_translucent_2"
+                android:ellipsize="marquee"
+                style="@style/Widget.AppCompat.TextView"
+                />
+
+        <Spinner android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:imeOptions="actionNext"
+                 android:id="@id/edit_localidad"
+                 android:singleLine="true"
+                 android:entries="@array/central_office"
+                />
+
+
+        <com.claro.cfcmobile.widget.TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dp_4"
+                android:paddingBottom="@dimen/dp_4"
+                android:text="@string/label_par_feedder"
+                android:singleLine="true"
+                android:paddingLeft="@dimen/dp_4"
+                android:ellipsize="marquee"
+                android:background="@color/blue_base_translucent_2"
+                style="@style/Widget.AppCompat.TextView"
+                />
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:id="@id/edit_par_feeder"
+                android:singleLine="true"
+                />
+
+        <com.claro.cfcmobile.widget.TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dp_4"
+                android:paddingBottom="@dimen/dp_4"
+                android:text="@string/label_terminal"
+                android:singleLine="true"
+                android:paddingLeft="@dimen/dp_4"
+                android:ellipsize="marquee"
+                android:background="@color/blue_base_translucent_2"
+                style="@style/Widget.AppCompat.TextView"
+                />
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:id="@id/edit_terminal"
+                android:singleLine="true"
+                />
+
+        <com.claro.cfcmobile.widget.TextView
+                android:id="@id/label_par_local"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dp_4"
+                android:paddingBottom="@dimen/dp_4"
+                android:text="@string/label_par_local"
+                android:singleLine="true"
+                android:paddingLeft="@dimen/dp_4"
+                android:ellipsize="marquee"
+                android:background="@color/blue_base_translucent_2"
+                style="@style/Widget.AppCompat.TextView"
+                />
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:id="@id/edit_par_local"
+                android:singleLine="true"
+                />
+
+
+
+        <com.claro.cfcmobile.widget.TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dp_4"
+                android:paddingBottom="@dimen/dp_4"
+                android:paddingLeft="@dimen/dp_4"
+                android:text="@string/label_terminal_fo"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:background="@color/gray_base_translucent_2"
+                style="@style/Widget.AppCompat.TextView"
+                />
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:id="@id/edit_terminal_fo"
+                android:singleLine="true"
+                android:hint="@string/hint_terminal_fo"
+                />
+
+        <com.claro.cfcmobile.widget.TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dp_4"
+                android:paddingBottom="@dimen/dp_4"
+                android:paddingLeft="@dimen/dp_4"
+                android:text="@string/label_splitter_port"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:background="@color/gray_base_translucent_2"
+                style="@style/Widget.AppCompat.TextView"
+                />
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:imeOptions="actionDone"
+                  android:id="@id/edit_splitter_port"
+                  android:singleLine="true"
+                />
+
+
+        <!--<com.claro.cfcmobile.widget.TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:paddingTop="@dimen/dp_4"-->
+                <!--android:paddingBottom="@dimen/dp_4"-->
+                <!--android:paddingLeft="@dimen/dp_4"-->
+                <!--android:text="@string/label_direccion"-->
+                <!--android:singleLine="true"-->
+                <!--android:ellipsize="marquee"-->
+                <!--android:background="@color/gray_base_translucent_2"-->
+                <!--style="@style/Widget.AppCompat.TextView"-->
+                <!--/>-->
+
+        <!--<EditText android:layout_width="match_parent"-->
+                  <!--android:layout_height="wrap_content"-->
+                  <!--android:imeOptions="actionDone"-->
+                  <!--android:id="@id/edit_direccion"-->
+                  <!--android:singleLine="true"-->
+                <!--/>-->
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/label_direccion"
+                  android:layout_marginBottom="@dimen/dp_4"
+                />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+            <RadioButton android:id="@+id/radio_direccion_yes"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="Si"
+                         android:layout_marginRight="@dimen/dp_8"
+                    />
+            <RadioButton android:id="@+id/radio_direccion_no"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="No"
+                    />
+        </RadioGroup>
+    </LinearLayout>
+
+</ScrollView>

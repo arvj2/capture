@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="service-loader:ejb">
+    <output-path>$PROJECT_DIR$/task-scheduler/service-loader/target</output-path>
+    <root id="archive" name="service-loader-1.5.jar">
+      <element id="artifact" artifact-name="service-loader:ejb exploded" />
+    </root>
+  </artifact>
+</component>

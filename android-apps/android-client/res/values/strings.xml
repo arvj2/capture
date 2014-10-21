@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CFC Movil</string>
+    <string name="btn_login">Acceder</string>
+    <string name="hint_tarjeta">Tarjeta</string>
+    <string name="sp_userName">IMEI</string>
+    <string name="sp_welcome">Bienvenido</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="action_update">Refresh</string>
+    <string name="dispatch_fragment_icon_header">Tipo DI</string>
+    <string name="dispatch_fragment_identifier_header">Numero</string>
+    <string name="dispatch_fragment_net_type_header">Tecnologia</string>
+    <string name="dispatch_fragment_due_date_header">Fecha Compromiso</string>
+
+
+    <string name="new_app_version">Descargando actualizacion</string>
+   <!-- Dispatch Items Detail specifics strings-->
+    <string name="dispatch_item_title">Detalle de Item</string>
+
+   <!-- HOME Activity specifics strings-->
+    <string name="empty_content">No existen Items de Despacho</string>
+
+
+
+    <!-- FEEDBACK specific string -->
+    <string name="connection_failured">Error en la Conexion</string>
+
+
+    <!-- LOGIN Specifics String-->
+    <string name="retry">Reintentar</string>
+    <string name="login_feedback">Autenticando&#8230;</string>
+    <string name="unable_authentication">Error logeando</string>
+    <string name="unable_to_send_form">Error enviando formulario</string>
+    <string name="form_sent">Formulario enviado correctamente</string>
+
+
+    <!-- Preferencias -->
+    <string name="sync_summary">Intervalos de sincronizacion</string>
+    <string name="sync_title">Sincronizacion</string>
+    <string name="sync_mechanism_desc">Definicion de sincronizacion</string>
+    <string name="sync_mechanism">Comportamiento</string>
+    <string name="sync_auto_desc_on">Habilitada</string>
+    <string name="sync_auto_desc_off">Deshabilitada</string>
+    <string name="sync_auto">AutoSync</string>
+    <string name="sync_period">Frecuencia de Actualizacion</string>
+    <string name="sync_period_desc">Intervalos de actualizacion</string>
+
+
+
+    <!-- General forms-->
+    <string name="label_phone">Numero de Telefono</string>
+    <string name="label_cabina">Cabina</string>
+    <string name="label_cuenta_fija">Cuenta Fija</string>
+    <string name="label_par_feedder">Par Feeder</string>
+    <string name="label_terminal">Terminal</string>
+    <string name="label_par_local">Par Local</string>
+    <string name="label_direccion">La Direccion es Correcta ?</string>
+    <string name="label_localidad">Localidad</string>
+    <string name="label_puerto">Puerto</string>
+    <string name="label_puerto_especificacion">Seleccione tipo de puerto</string>
+    <string name="label_terminal_fo">Terminal Fo</string>
+    <string name="label_terminal_fibra">Terminal Fibra</string>
+    <string name="label_splitter_port">Splitter Port</string>
+    <string name="label_dslam">Especifique el DSLAM</string>
+
+
+
+    <string name="mask_phone">8#9-###-####</string>
+    <string name="mask_cabina"></string>
+    <string name="mask_parfeeder"></string>
+    <string name="mask_terminal"></string>
+    <string name="mask_par_local"></string>
+    <string name="mask_terminal_fo"></string>
+    <!--<string name="mask_phone">(8#9)###-####</string>-->
+    <!--<string name="mask_cabina">C*##*</string>-->
+    <!--<string name="mask_parfeeder">####</string>-->
+    <!--<string name="mask_terminal">####</string>-->
+    <!--<string name="mask_par_local">####</string>-->
+    <!--<string name="mask_terminal_fo">FC***#*+*#</string>-->
+
+    <string name="hint_par_feeder"></string>
+    <!--<string name="hint_par_feeder">.*-####</string>-->
+    <string name="hint_terminal_fo"></string>
+    <!--<string name="hint_terminal_fo">FC[A-Z].{1,5}-[A-Z]#{1,2}</string>-->
+
+
+
+
+
+    <string name="validation_phone">Telefono no valido.</string>
+    <string name="validation_par_feeder">Par feeder no valido</string>
+    <string name="validation_terminal">Terminal no valido</string>
+    <string name="validation_terminal_fo">Terminal Fibra no valido</string>
+    <string name="validation_par_local">Par local no valido</string>
+    <string name="validation_splitter_port">Splitter Port no valido</string>
+    <string name="validation_localidad">Localidd no valida</string>
+    <string name="validation_port">Puerto no valido</string>
+    <string name="validation_dslam">DSLAM no valido</string>
+    <string name="validation_cabina">Cabina no valida</string>
+    <string name="validation_address">Especifique si la direccion es correcta</string>
+
+    <!-- CONDITION AND PRIVACY ACTIVITY STRINGS -->
+
+    <string name="privacy_policy_title">Politicas de Privacidad</string>
+    <string name="empty_description"></string>
+    <string name="accept_continue">Aceptar y Continuar</string>
+    <string name="more_information"><a href="http://www.claro.com.do/">Mas Informacion</a> sobre CFC Movil</string>
+    <string name="wellcome">Bienvenido a CFC Movil</string>
+    <string name="conditions">Usando esta aplicacion,usted acepta las
+        <a href="cfc://browse/com.claro.cfcmobile.activities.fragments.browseable.ConditionFragment">Condiciones de Servicio</a>
+        y las
+        <a href="cfc://browse/com.claro.cfcmobile.activities.fragments.browseable.PrivacyFragment">Politicas de Seguridad</a>
+    </string>
+    <string name="service_condition_title">Condiciones de Servicio</string>
+
+    <string name="privacy_terms">
+        Este sistema y sus recursos son propiedad de CLARO y es para el uso exclusivo del Personal
+        autorizado por esta entidad. Su uso indebido puede conllevar acciones disciplinarias y/o
+        legales.Toda actividad realizada en este sistema está siendo registrada y monitoreada.
+        Este sistema y sus recursos son propiedad de CLARO y es para el usows disciplinarias y/o
+        legales.Toda actividad realizada en este sistema está siendo registrada y monitoreada.
+    </string>
+
+
+    <string name="service_condition">
+        <![CDATA[
+			<h3><b>CFC Mobile Terms and Conditions of Use</b></h3><br/>
+			<h3>1. Terms</h3>
+			<p>
+			    By accessing this mobile app, you are agreeing to be bound by these
+			    mobile app  Terms and Conditions of Use, all applicable laws and regulations,
+			    and agree that you are responsible for compliance with any applicable local
+			    laws. If you do not agree with any of these terms, you are prohibited from
+			    using or accessing this mobile ap. The materials contained in this mobile app  are
+			    protected by applicable copyright and trade mark law.
+			</p>
+			<h3>2. Use License</h3>
+			<ol type="a">
+			    <li>
+			        Permission is granted to temporarily download N copy of the materials
+			        (information or software) on Claro RD site for non-personal,
+			        commercial transitory viewing only. This is the grant of a license,
+			        not a transfer of title, and under this license you may not:
+
+			        <ol type="i">
+			            <li>modify or copy the materials;</li>
+			            <li>use the materials for any personal purpose;</li>
+			            <li>attempt to decompile or reverse engineer any software contained on CFC Mobile mobile app;</li>
+			            <li>remove any copyright or other proprietary notations from the materials; or</li>
+			            <li>transfer the materials to another person or "mirror" the materials on any other server.</li>
+			        </ol>
+			    </li>
+			    <li>This license shall automatically terminate if you violate any of these restrictions and may be terminated by Claro RD at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.</li>
+			</ol>
+			<h3>3. Disclaimer</h3>
+			<ol type="a">
+			    <li>The materials on the site for Lemo mobile application Consulting are provided "as is". Claro RD makes warranties, express or implied or conditions of merchantability, fitness for a particular purpose or non-infringement of intellectual property or other violation of rights. Furthermore, Claro RD Tortal warrant and representation about the accuracy, likely results, or reliability of the use of the materials on its Internet mobile application or otherwise relating to such materials or on any sites linked to this mobile app.</li>
+			</ol>
+			<h3>4. Limitations</h3>
+			<p>In any case Claro RD or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption, or caused by its users) arising out of the use or inability to use internet materials Claro RD..</p>
+			<h3>5. Revisions and Errata</h3>
+			<p>The materials appearing on Claro RD mobile app  could include technical, typographical, or photographic errors. Claro RD does not warrant that any of the materials on its mobile app  are accurate, complete, or current. Claro RD may make changes to the materials contained on its mobile app  at any time without notice. Claro RD does not, however, make any commitment to update the materials.</p>
+			<h3>6. Links</h3>
+			<p>Claro RD has  reviewed all of the sites linked to its Internet mobile app  and is  responsible for the contents of any such linked . The inclusion of any link does  imply endorsement by Claro RD of the . Use of any other such not linked mobile app  is at the user own risk.</p>
+			<h3>7. Site Terms of Use Modifications</h3>
+			<p>Claro RD may revise these terms of use for its mobile app  at any time without notice. By using this mobile app  you are agreeing to be bound by the then current version of these Terms and Conditions of Use.</p>
+			<h3>8. Governing Law</h3>
+			<p>Any claim relating to Claro RD mobile app site shall be governed by the laws of the State of Dominican Republic without regard to its conflict of law provisions.</p>
+			<p>General Terms and Conditions applicable to Use of a mobile app.</p>
+			<h2>Privacy Policy Review</h2>
+			<p>Your privacy is very important to us. Accordingly, we have developed this Policy in order for you to understand how we collect, use, communicate and disclose and make use of personal information. The following outlines our privacy policy.</p>
+			<ul>
+			    <li>Before or at the time of collecting personal information, we will identify the purposes for which information is being collected.</li>
+			    <li>We will collect and use of personal information solely with the objective of fulfilling those purposes specified by us and for other compatible purposes, unless we obtain the consent of the individual concerned or as required by law.		</li>
+			    <li>We will only retain personal information as long as necessary for the fulfillment of those purposes. </li>
+			    <li>We will collect personal information by lawful and fair means and, where appropriate, with the knowledge or consent of the individual concerned. </li>
+			    <li>Personal data should be relevant to the purposes for which it is to be used, and, to the extent necessary for those purposes, should be accurate, complete, and up-to-date. </li>
+			    <li>We will protect personal information by reasonable security safeguards against loss or theft, as well as unauthorized access, disclosure, copying, use or modification.</li>
+			    <li>We will make readily available to customers information about our policies and practices relating to the management of personal information. </li>
+			</ul>
+			<p>We are committed to conducting our business in accordance with these principles in order to ensure that the confidentiality of personal information is protected and maintained. </p>
+]]>
+    </string>
+
+
+    <string name="select_general_in_clause">
+        <![CDATA[
+                (\'NUMEROSERVICIO\',\'NUMEROCONTACTO\',\'IDCONTACTO\',\'CLIENTE\',\'DIRECCION\',\'SECTOR\',\'CIUDAD\',\'CODIGO_DISTRIB\',\'AVISAR\',\'TEL_PROXIMO\',\'FECHA_RECIBIDA\',\'FECHA_COMPROMISO_COPC\',\'FECHA_COMPROMISO_CITA\',\'FECHA_ASIGNACION\',\'FECHA_DESPACHADA\',\'TIPO_PRIORIDAD\',\'TANDA\',\'CANT_DIAS\')
+        ]]>
+    </string>
+
+    <string name="select_order_ticket_in_clause">
+        <![CDATA[
+                (\'TIPO_ORDEN\',\'OPERATION\',\'SOLICITUD\',\'TICKET_RECLAMACION\',\'NUMERO_CASO\',\'DETALLE_CASO\',\'PROCESO\',\'SECUENCIA_TRABAJO\',\'CLASE_SERVICIO\',\'TEL_ASIGNADO\',\'LLEVA_MODEM\',\'TIPO_MODEM\',\'CANT_EXTENSIONES\',\'EQUIPO_ATA\',\'PAQUETES\',\'TECNOLOGIA\',\'OFFER_NAME\',\'PRODUCTOS_CLIENTE\',\'STB\',\'REMARKS\',\'EQUIPOS_TELEFONICOS\',\'FLAG_DATO\',\'VDSL\',\'IP_FIJA\',\'VELOCIDAD_ADSL\',\'VELOCIDAD_VDSL\',\'ULTIMO_CODIGO\',\'TECNICO_ULTIMO_CODIGO\',\'CELULAR_TECNICO\')
+        ]]>
+    </string>
+
+    <string name="select_facilities_in_clause">
+        <![CDATA[
+                (\'TERMINAL_FIBRA\',\'SPLITTER_TERMINAL\',\'FEEDER\',\'FAC_LOCAL\',\'TERMINAL\',\'EQUIPOS\',\'APARATO\',\'TIPO_PLAN\',\'ESTATUS_PAR_FEEDER\',\'PUERTO\')
+        ]]>
+    </string>
+
+    <string name="select_misc_in_clause">
+        <![CDATA[
+               (\'NUMEROSERVICIO\',\'NUMEROCONTACTO\',\'IDCONTACTO\',\'CLIENTE\',\'DIRECCION\',\'SECTOR\',\'CIUDAD\',\'CODIGO_DISTRIB\',\'AVISAR\',\'TEL_PROXIMO\',\'FECHA_RECIBIDA\',\'FECHA_COMPROMISO_COPC\',\'FECHA_COMPROMISO_CITA\',\'FECHA_ASIGNACION\',\'FECHA_DESPACHADA\',\'TIPO_PRIORIDAD\',\'TANDA\',\'TIPO_ORDEN\',\'OPERATION\',\'SOLICITUD\',\'TICKET_RECLAMACION\',\'NUMERO_CASO\',\'DETALLE_CASO\',\'PROCESO\',\'SECUENCIA_TRABAJO\',\'CLASE_SERVICIO\',\'TEL_ASIGNADO\',\'LLEVA_MODEM\',\'TIPO_MODEM\',\'CANT_EXTENSIONES\',\'EQUIPO_ATA\',\'PAQUETES\',\'TECNOLOGIA\',\'OFFER_NAME\',\'PRODUCTOS_CLIENTE\',\'STB\',\'REMARKS\',\'EQUIPOS_TELEFONICOS\',\'FLAG_DATO\',\'VDSL\',\'IP_FIJA\',\'VELOCIDAD_ADSL\',\'VELOCIDAD_VDSL\',\'ULTIMO_CODIGO\',\'TECNICO_ULTIMO_CODIGO\',\'CELULAR_TECNICO\',\'CANT_DIAS\',\'TERMINAL_FIBRA\',\'SPLITTER_TERMINAL\',\'FEEDER\',\'FAC_LOCAL\',\'TERMINAL\',\'EQUIPOS\',\'APARATO\',\'TIPO_PLAN\',\'ESTATUS_PAR_FEEDER\',\'PUERTO\',\'FECHA_ASIGNACION\',\'IDDIRECCION\')
+        ]]>
+    </string>
+</resources>

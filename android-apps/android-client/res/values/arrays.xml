@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="details_tabs">
+        <item>Informacion General</item>
+        <item>Detalle Orden/Ticket</item>
+        <item>Facilidaes</item>
+        <item>Misc</item>
+    </string-array>
+
+    <string-array name="actionbar_expand_options">
+        <item>Todos los Items</item>
+        <item>Ordenes</item>
+        <item>Tickets</item>
+    </string-array>
+
+
+    <string-array name="sync_periods_labels">
+        <item name="30">30 minutos</item>
+        <item name="40">40 minutos</item>
+        <item name="50">50 minutos</item>
+        <item name="60">1 hora</item>
+        <item name="120">2 hora</item>
+    </string-array>
+
+
+    <string-array name="sync_periods_values">
+        <item name="30">30</item>
+        <item name="40">40</item>
+        <item name="50">50</item>
+        <item name="60">60</item>
+        <item name="120">120</item>
+    </string-array>
+
+    <string-array name="action_form_list">
+        <item>Seleccionar</item>
+        <item>PSTN</item>
+        <item>FIBRA</item>
+        <item>PSTN+FIBRA</item>
+        <item>PSTN+DATA</item>
+        <!--<item>FRAME</item>-->
+    </string-array>
+
+
+    <string-array name="fibra_puerto_labels">
+        <item>Alcatel</item>
+        <item>CISCO</item>
+        <item>Huawei</item>
+        <item>Stinger</item>
+        <item>ZTE</item>
+        <item>Zyxel ADSL</item>
+        <item>Zyxel SHDSL</item>
+    </string-array>
+
+    <string-array name="fibra_tipo_puerto_masks">
+        <item>Alcatel</item>
+        <item>CISCO</item>
+        <item>Huawei</item>
+        <item>Stinger</item>
+        <item>ZTE</item>
+        <item>Zyxel ADSL</item>
+        <item>Zyxel SHDSL</item>
+    </string-array>
+
+    <string-array name="ports_regex">
+        <item>\\d-\\d-\\d{1,2}-\\d{1,2}$</item>
+        <item>(TARJ )\\d{1,2}(-PTO )\\d$</item>
+        <item>(SLOT )\\d{1,2}(-PUERTO )\\d-\\d{1,2}$)</item>
+        <item>(SHELF )\\d(-TARJ )\\d{1,2}(-PTO )\\d{1,2}$</item>
+        <item>\\d-\\d{1,2}$</item>
+        <item>(SLOT )\\d{1,2}(-PUERTO-)\\d{1,2}( ADSL)$</item>
+        <item>(SLOT )\\d(-SHDSL PORT )\\d{1,2}$</item>
+    </string-array>
+
+
+    <string-array name="central_office">
+        <item>30 DE MARZO</item>
+        <item>AILA</item>
+        <item>AILI</item>
+        <item>AIRO</item>
+        <item>ALAMEDA</item>
+        <item>ALTAMIRA</item>
+        <item>ALTOS DE VIRELLA</item>
+        <item>AMINA</item>
+        <item>ARENOSO</item>
+        <item>AZUA</item>
+        <item>BANI</item>
+        <item>BARAHONA</item>
+        <item>BARRANCA</item>
+        <item>BAYAGUANA</item>
+        <item>BAYAHIBE</item>
+        <item>BELLA VISTA</item>
+        <item>BIENAVENTURANZAS</item>
+        <item>BOCA CHICA</item>
+        <item>BONAO</item>
+        <item>BURENDE</item>
+        <item>CABARETE</item>
+        <item>CABEZA DE TORO</item>
+        <item>CABRAL</item>
+        <item>CABRERA</item>
+        <item>CACICAZGOS</item>
+        <item>CACIQUE</item>
+        <item>CAMBITA</item>
+        <item>CANCA ABAJO (CARR TAMBORIL SAN VICTOR)</item>
+        <item>CARCEL DE MOCA</item>
+        <item>CASTANUELA</item>
+        <item>CASTILLO</item>
+        <item>CAYETANO GERMOSEN</item>
+        <item>CERCADO</item>
+        <item>CEVICOS</item>
+        <item>CIUDAD MODELO</item>
+        <item>CIUDAD SATELITE</item>
+        <item>COFRESI</item>
+        <item>COLLINS 5ESS</item>
+        <item>COMENDADOR</item>
+        <item>CONSTANZA</item>
+        <item>CONSTRUCTORA LA ALTAGRACIA</item>
+        <item>COSTA BAVARO</item>
+        <item>COTUI</item>
+        <item>CRUCE DE GUAYACANES</item>
+        <item>CUTUPU</item>
+        <item>DAJABON</item>
+        <item>DUARTE</item>
+        <item>DUVERGE</item>
+        <item>EL CORTECITO</item>
+        <item>EL FACTOR</item>
+        <item>EL MILLON II</item>
+        <item>EL POLVORIN</item>
+        <item>EL RUBIO</item>
+        <item>EL SEYBO</item>
+        <item>EL VALLE</item>
+        <item>ENRIQUILLO</item>
+        <item>ENTRADA DE SAN FRANCISCO(MIRADOR JAYA)</item>
+        <item>ESPERANZA</item>
+        <item>FANTINO</item>
+        <item>FARO A COLON</item>
+        <item>FICTICIO - SUMARIA COFEE</item>
+        <item>FUNDACION</item>
+        <item>GALVAN</item>
+        <item>GASPAR HERNANDEZ</item>
+        <item>GUANANICO</item>
+        <item>GUAYMATE</item>
+        <item>GUAYUBIN</item>
+        <item>GUERRA</item>
+        <item>HACIENDA ESTRELLA</item>
+        <item>HAINA MG 9000</item>
+        <item>HAINAMOSA</item>
+        <item>HATILLO PALMA</item>
+        <item>HATO MAYOR</item>
+        <item>HATO NUEVO</item>
+        <item>HERRERA</item>
+        <item>HIGUEY</item>
+        <item>HIPODROMO V CENTENARIO</item>
+        <item>HOSPITEN</item>
+        <item>IMBERT</item>
+        <item>ING. CONSUELO</item>
+        <item>ING. QUISQUEYA</item>
+        <item>JAMAO AL NORTE</item>
+        <item>JANICO</item>
+        <item>JARABACOA</item>
+        <item>JARDINES DEL NORTE</item>
+        <item>JAYA</item>
+        <item>JIMA ABAJO</item>
+        <item>JIMA ARRIBA</item>
+        <item>JIMANI</item>
+        <item>JOSE CONTRERAS</item>
+        <item>JUNUMUCU EL PINO</item>
+        <item>LA ANGELINA</item>
+        <item>LA CIENAGA (SANTIAGO)</item>
+        <item>LA CIENAGA LOS HIDALGOS</item>
+        <item>LA CUESTA</item>
+        <item>LA ISABELA</item>
+        <item>LA MATA (LA BIJA LA SOLEDAD)</item>
+        <item>LA ROMANA</item>
+        <item>LA UNION</item>
+        <item>LA VEGA</item>
+        <item>LA VEGA II (LA LOTERIA)</item>
+        <item>LA VENTA</item>
+        <item>LA VICTORIA</item>
+        <item>LA YUCA</item>
+        <item>LAGUNA SALADA</item>
+        <item>LAGUNAS NISIBON</item>
+        <item>LAS AMERICAS</item>
+        <item>LAS CABUYAS</item>
+        <item>LAS CAOBAS</item>
+        <item>LAS CHARCAS</item>
+        <item>LAS GALERAS</item>
+        <item>LAS GUARANAS</item>
+        <item>LAS LAGUNAS</item>
+        <item>LAS M.DE SANTA CRUZ</item>
+        <item>LAS MATAS DE FARFAN</item>
+        <item>LICEY AL MEDIO</item>
+        <item>LOMA CABRERA</item>
+        <item>LOS ALCARRIZOS</item>
+        <item>LOS ALMACIGOS</item>
+        <item>LOS FRAILES</item>
+        <item>LOS GIRASOLES</item>
+        <item>LOS HIDALGOS</item>
+        <item>LOS LLANOS</item>
+        <item>LOS MILLONES</item>
+        <item>LOS MINAS SUR</item>
+        <item>LOS REYES</item>
+        <item>LOS RIOS</item>
+        <item>LOS TRES OJOS</item>
+        <item>LOS TRINITARIOS</item>
+        <item>LUCERNA</item>
+        <item>LUPERON</item>
+        <item>LUPERON PUEBLO</item>
+        <item>MAIMON</item>
+        <item>MATANZAS</item>
+        <item>MELIA BAVARO</item>
+        <item>MELLA</item>
+        <item>MERCA SANTO DOMINGO</item>
+        <item>MICHES</item>
+        <item>MOCA</item>
+        <item>MONCION</item>
+        <item>MONTE CRISTI</item>
+        <item>MONTE LLANO</item>
+        <item>MONTE PLATA</item>
+        <item>NAGUA</item>
+        <item>NAVARRETE</item>
+        <item>NEYBA</item>
+        <item>NIZAO</item>
+        <item>NORTEL MTX</item>
+        <item>OTRA BANDA</item>
+        <item>P. OCOA</item>
+        <item>PADRE LAS CASAS</item>
+        <item>PALENQUE</item>
+        <item>PALMA REAL (GIRASOLES II )</item>
+        <item>PANTOJAS</item>
+        <item>PARAISO</item>
+        <item>PARQUE CIBERNETICO</item>
+        <item>PARTIDO</item>
+        <item>PEDERNALES</item>
+        <item>PEDRO BRAND</item>
+        <item>PEDRO GARCIA</item>
+        <item>PEPILLO SALCEDO</item>
+        <item>PERALTA</item>
+        <item>PIEDRA BLANCA</item>
+        <item>PIMENTEL</item>
+        <item>PLAYA DORADA</item>
+        <item>POLIDEPORTIVO MOCA</item>
+        <item>PORTILLO</item>
+        <item>PRADOS DE SAN LUIS</item>
+        <item>PROVINCIA AZUA (SIF)</item>
+        <item>PROVINCIA BAHORUCO (SIF)</item>
+        <item>PROVINCIA BARAHONA (SIF)</item>
+        <item>PROVINCIA DAJABON (SIF)</item>
+        <item>PROVINCIA DISTRITO NACIONAL (SIF)</item>
+        <item>PROVINCIA DUARTE (SIF)</item>
+        <item>PROVINCIA EL SEIBO (SIF)</item>
+        <item>PROVINCIA ELIAS PINA (SIF)</item>
+        <item>PROVINCIA ESPAILLAT (SIF)</item>
+        <item>PROVINCIA HATO MAYOR (SIF)</item>
+        <item>PROVINCIA INDEPENDENCIA (SIF)</item>
+        <item>PROVINCIA LA ALTAGRACIA (SIF)</item>
+        <item>PROVINCIA LA ROMANA (SIF)</item>
+        <item>PROVINCIA LA VEGA (SIF)</item>
+        <item>PROVINCIA MARIA T SANCHEZ (SIF)</item>
+        <item>PROVINCIA MONSEÑOR NOUEL (SIF)</item>
+        <item>PROVINCIA MONTE CRISTI (SIF)</item>
+        <item>PROVINCIA MONTE PLATA (SIF)</item>
+        <item>PROVINCIA PEDERNALES (SIF)</item>
+        <item>PROVINCIA PERAVIA (SIF)</item>
+        <item>PROVINCIA PUERTO PLATA (SIF)</item>
+        <item>PROVINCIA SALCEDO (SIF)</item>
+        <item>PROVINCIA SAMANA (SIF)</item>
+        <item>PROVINCIA SAN CRISTOBAL (SIF)</item>
+        <item>PROVINCIA SAN JOSE DE OCOA (SIF)</item>
+        <item>PROVINCIA SAN JUAN DE LA MAGUANA (SIF)</item>
+        <item>PROVINCIA SAN PEDRO DE MACORIS (SIF)</item>
+        <item>PROVINCIA SANCHEZ RAMIREZ (SIF)</item>
+        <item>PROVINCIA SANTIAGO (SIF)</item>
+        <item>PROVINCIA SANTIAGO RODRIGUEZ (SIF)</item>
+        <item>PROVINCIA VALVERDE (SIF)</item>
+        <item>PUEBLO BAVARO</item>
+        <item>PUEBLO NUEVO (LA YAGUA)</item>
+        <item>PUERTO PLATA</item>
+        <item>PUNTA CANA</item>
+        <item>RANCHITO</item>
+        <item>RESIDENCIAL BAVARO PUNTA CANA</item>
+        <item>RIO SAN JUAN</item>
+        <item>RIU</item>
+        <item>ROMANA DEL OESTE</item>
+        <item>S.F.MACORIS</item>
+        <item>S.J.OCOA</item>
+        <item>S.JOSE DE L.MATAS</item>
+        <item>SABANA BUEY</item>
+        <item>SABANA DE LA MAR</item>
+        <item>SABANA DEL PUERTO</item>
+        <item>SABANA G.BOYA</item>
+        <item>SABANA IGLESIA</item>
+        <item>SABANA LARGA</item>
+        <item>SABANA PERDIDA</item>
+        <item>SABANA YEGUA</item>
+        <item>SABANETA</item>
+        <item>SABANETA DE YASICA</item>
+        <item>SALCEDO</item>
+        <item>SALIDA SAN FCO MACORIS TENARES</item>
+        <item>SAMANA</item>
+        <item>SAN CRISTOBAL</item>
+        <item>SAN FELIPE ( VILLA MELLA)</item>
+        <item>SAN ISIDRO</item>
+        <item>SAN JUAN MAGUANA</item>
+        <item>SAN PEDRO MACORIS</item>
+        <item>SAN RAFAEL DEL YUMA</item>
+        <item>SAN VICTOR</item>
+        <item>SANCHEZ</item>
+        <item>SANTA ROSA (MOCA)</item>
+        <item>SANTIAGO</item>
+        <item>SANTIAGO RODRIGUEZ</item>
+        <item>SEA HORSE RANCH CHOCO</item>
+        <item>SHOPPING MALL (PUNTA CANA)</item>
+        <item>SIP TRUNKING</item>
+        <item>SOSUA</item>
+        <item>STAR HILL</item>
+        <item>TALANQUERA</item>
+        <item>TAMAYO</item>
+        <item>TAMBORIL</item>
+        <item>TENARES</item>
+        <item>TERRENAS</item>
+        <item>TIREO</item>
+        <item>UVERO ALTO</item>
+        <item>VALVERDE MAO</item>
+        <item>VICENTE NOBLE</item>
+        <item>VILLA ALTAGRACIA</item>
+        <item>VILLA ELISA</item>
+        <item>VILLA GONZALEZ</item>
+        <item>VILLA HERMOSA</item>
+        <item>VILLA JARAGUA</item>
+        <item>VILLA MELLA</item>
+        <item>VILLA RIVA</item>
+        <item>VILLA TAPIA</item>
+        <item>VILLA VASQUEZ</item>
+        <item>YAGUATE</item>
+        <item>YAMASA</item>
+        <item>YAPUR DUMIT</item>
+        <item>Z. F.PIZANO</item>
+        <item>Z.F. LA VEGA</item>
+        <item>Z.F. LICEY</item>
+        <item>Z.F.GURABO</item>
+        <item>ZF MATANZA</item>
+        <item>ZONA FRANCA SAN ISIDRO</item>
+    </string-array>
+</resources>

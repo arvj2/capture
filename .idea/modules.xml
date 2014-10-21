@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android-apps/android-apps.iml" filepath="$PROJECT_DIR$/android-apps/android-apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-apps/android-client/android-client.iml" filepath="$PROJECT_DIR$/android-apps/android-client/android-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-apps/services/android-services/android-services.iml" filepath="$PROJECT_DIR$/web-apps/services/android-services/android-services.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/Shortucts/adt-bundle/sdk/extras/android/support/v7/appcompat/appcompat.iml" filepath="$USER_HOME$/Desktop/Shortucts/adt-bundle/sdk/extras/android/support/v7/appcompat/appcompat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/captura-factilidades.iml" filepath="$PROJECT_DIR$/captura-factilidades.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-apps/cfc-app-updater/cfc-app-updater.iml" filepath="$PROJECT_DIR$/web-apps/cfc-app-updater/cfc-app-updater.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-apps/cfc-environments/cfc-environments.iml" filepath="$PROJECT_DIR$/web-apps/cfc-environments/cfc-environments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-apps/cfc-persistence/cfc-persistence.iml" filepath="$PROJECT_DIR$/web-apps/cfc-persistence/cfc-persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-apps/cfc-services/cfc-services.iml" filepath="$PROJECT_DIR$/web-apps/cfc-services/cfc-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-apps/cfc-transport-utils/cfc-transport-utils.iml" filepath="$PROJECT_DIR$/web-apps/cfc-transport-utils/cfc-transport-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-apps/cfc-webapp/cfc-webapp.iml" filepath="$PROJECT_DIR$/web-apps/cfc-webapp/cfc-webapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-apps/cfc-webear/cfc-webear.iml" filepath="$PROJECT_DIR$/web-apps/cfc-webear/cfc-webear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-apps/cfc-webroot/cfc-webroot.iml" filepath="$PROJECT_DIR$/web-apps/cfc-webroot/cfc-webroot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-scheduler/oss-environments/oss-environments.iml" filepath="$PROJECT_DIR$/task-scheduler/oss-environments/oss-environments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-scheduler/oss-geff-client/oss-geff/oss-geff.iml" filepath="$PROJECT_DIR$/task-scheduler/oss-geff-client/oss-geff/oss-geff.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-scheduler/oss-geff-client/oss-geff-activator/oss-geff-activator.iml" filepath="$PROJECT_DIR$/task-scheduler/oss-geff-client/oss-geff-activator/oss-geff-activator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-scheduler/oss-geff-client/oss-geff-client.iml" filepath="$PROJECT_DIR$/task-scheduler/oss-geff-client/oss-geff-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-scheduler/oss-loader/oss-loader.iml" filepath="$PROJECT_DIR$/task-scheduler/oss-loader/oss-loader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-scheduler/oss-m6-client/oss-m6/oss-m6.iml" filepath="$PROJECT_DIR$/task-scheduler/oss-m6-client/oss-m6/oss-m6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-scheduler/oss-m6-client/oss-m6-activator/oss-m6-activator.iml" filepath="$PROJECT_DIR$/task-scheduler/oss-m6-client/oss-m6-activator/oss-m6-activator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-scheduler/oss-m6-client/oss-m6-client.iml" filepath="$PROJECT_DIR$/task-scheduler/oss-m6-client/oss-m6-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-scheduler/oss-scheduler/oss-scheduler.iml" filepath="$PROJECT_DIR$/task-scheduler/oss-scheduler/oss-scheduler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-scheduler/oss-specification/oss-specification.iml" filepath="$PROJECT_DIR$/task-scheduler/oss-specification/oss-specification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-scheduler/oss-utils/oss-utils.iml" filepath="$PROJECT_DIR$/task-scheduler/oss-utils/oss-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oss-utils/oss-utils.iml" filepath="$PROJECT_DIR$/oss-utils/oss-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-apps/otaupdater/otaupdater.iml" filepath="$PROJECT_DIR$/android-apps/otaupdater/otaupdater.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-scheduler/scheduler-manager/scheduler-manager.iml" filepath="$PROJECT_DIR$/task-scheduler/scheduler-manager/scheduler-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-apps/cfc-services/support-services/support-services.iml" filepath="$PROJECT_DIR$/web-apps/cfc-services/support-services/support-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-scheduler/task-scheduler.iml" filepath="$PROJECT_DIR$/task-scheduler/task-scheduler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks-report/tasks-report.iml" filepath="$PROJECT_DIR$/tasks-report/tasks-report.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-scheduler/oss-client-testing/testing-activator/testing-activator.iml" filepath="$PROJECT_DIR$/task-scheduler/oss-client-testing/testing-activator/testing-activator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-apps/web-apps.iml" filepath="$PROJECT_DIR$/web-apps/web-apps.iml" />
+    </modules>
+  </component>
+</project>
+

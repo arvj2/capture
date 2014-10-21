@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+            android:icon="@drawable/ic_sync"
+            android:summary="@string/sync_mechanism_desc"
+            android:title="@string/sync_mechanism">
+
+        <!--<SwitchPreference-->
+                <!--android:key="key_sync_auto"-->
+                <!--android:enabled="true"-->
+                <!--android:summaryOn="@string/sync_auto_desc_on"-->
+                <!--android:summaryOff="@string/sync_auto_desc_off"-->
+                <!--android:title="@string/sync_auto"-->
+                <!-->-->
+        <!--</SwitchPreference>-->
+
+        <ListPreference
+                android:key="key_sync_period"
+                android:entries="@array/sync_periods_labels"
+                android:entryValues="@array/sync_periods_values"
+                android:title="@string/sync_period"
+                android:summary="@string/sync_period_desc"
+                android:defaultValue="30"
+                />
+
+    </PreferenceCategory>
+</PreferenceScreen>
+

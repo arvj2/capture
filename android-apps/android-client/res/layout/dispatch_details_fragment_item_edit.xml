@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="80dip"
+                android:paddingBottom="10dip">
+
+    <TextView android:id="@+id/di_detail_key"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentTop="true"
+              android:textStyle="bold"
+              android:textSize="16sp"
+              android:layout_marginTop="10dip"
+              android:layout_marginLeft="10dip"
+              android:text="TITULO"/>
+
+    <TextView android:id="@+id/di_detail_value"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_below="@id/di_detail_key"
+              android:layout_alignParentBottom="true"
+              android:textSize="14sp"
+              android:gravity="left"
+              android:layout_marginRight="10dip"
+              android:text="DESCRIPCION DETALLADA"/>
+
+    <ImageButton
+            android:id="@+id/di_detail_edit_btn"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dip"
+            android:layout_marginRight="20dip"
+            android:scaleType="fitCenter"
+            android:layout_width="48dip"
+            android:layout_height="48dip"/>
+
+
+</RelativeLayout>

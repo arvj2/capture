@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AppCompat.Light.FullScreen" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:buttonStyle">@style/Widget.AppCompat.Light.Button</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoTitleBar.FullScreen" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

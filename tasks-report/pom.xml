@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>captura-factilidades</artifactId>
+        <groupId>com.claro.cfc</groupId>
+        <version>2.5</version>
+    </parent>
+
+    <version>1.0</version>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>tasks-report</artifactId>
+    <description>
+        SELECT
+        AC.CODE DISPATCH_ITEM,AC.ITYPE FORM_TYPE, TS.STATUS,T.CREATED TASK_CREATED,
+        T.MODIFIED TASK_MODIFIED, TRT.RTYPE RESPONSE_TYPE, TL.SUCCESS,
+        TL.MESSAGE RESPONSE_MESSAGE
+        FROM TASK T
+        JOIN ACTIONS AC ON T.ACTION_ID = AC.ACTION_ID
+        JOIN TASK_LOG TL ON T.TASK_ID = TL.TASK_ID
+        JOIN TASK_STATUS TS ON T.STATUS = TS.STATUS_ID
+        JOIN TASK_RESPONSE_TYPE TRT ON TL.RESPONSE_TYPE = TRT.RID;
+    </description>
+
+    <packaging>war</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>jsp-api</artifactId>
+            <version>2.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>oracle.jdbc</groupId>
+            <artifactId>ojdbc</artifactId>
+            <version>6</version>
+        </dependency>
+    </dependencies>
+
+
+    <profiles>
+        <profile>
+            <id>develop</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+
+            <properties>
+                <environment.file>${project.basedir}/src/main/filters/develop/env.properties</environment.file>
+            </properties>
+
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>com.oracle.weblogic</groupId>
+                        <artifactId>weblogic-maven-plugin</artifactId>
+                        <version>10.3.6.0</version>
+                        <configuration>
+                            <adminurl>t3://localhost:7001</adminurl>
+                            <user>weblogic</user>
+                            <password>w3bl0g1c</password>
+                            <upload>true</upload>
+                            <action>deploy</action>
+                            <remote>false</remote>
+                            <verbose>true</verbose>
+                            <source>${project.build.directory}/${project.build.finalName}.${project.packaging}</source>
+                            <name>${project.build.finalName}</name>
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <phase>install</phase>
+                                <goals>
+                                    <goal>deploy</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+        <profile>
+            <id>staging</id>
+
+            <properties>
+                <environment.file>${project.basedir}/src/main/filters/staging/env.properties</environment.file>
+            </properties>
+
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>com.oracle.weblogic</groupId>
+                        <artifactId>weblogic-maven-plugin</artifactId>
+                        <version>10.3.6.0</version>
+                        <configuration>
+                            <adminurl>t3://172.27.17.161:8020/</adminurl>
+                            <user>UsrCapFaCel</user>
+                            <password>Codetel01</password>
+                            <upload>true</upload>
+                            <action>deploy</action>
+                            <remote>true</remote>
+                            <verbose>true</verbose>
+                            <source>${project.build.directory}/${project.build.finalName}.${project.packaging}</source>
+                            <name>${project.build.finalName}</name>
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <phase>install</phase>
+                                <goals>
+                                    <goal>deploy</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
+
+   <build>
+       <finalName>${project.name}</finalName>
+   </build>
+
+</project>

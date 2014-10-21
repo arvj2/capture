@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:self="http://schemas.android.com/apk/res/com.claro.cfcmobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/activity_vertical_padding"
+        android:paddingBottom="@dimen/activity_vertical_padding"
+        android:paddingLeft="@dimen/activity_horizontal_padding"
+        android:paddingRight="@dimen/activity_horizontal_padding"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical">
+
+    <com.claro.cfcmobile.widget.TextView
+            android:id="@id/key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_15"
+            android:textColor="#DD000000"
+            self:typeface="robotoRegular"
+            android:text="TITULO"/>
+
+    <com.claro.cfcmobile.widget.TextView
+            android:id="@id/value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/key"
+            android:layout_alignParentBottom="true"
+            android:textSize="@dimen/sp_12"
+            android:gravity="right"
+            self:typeface="robotoLight"
+            android:text="DESCRIPCION DETALLADA"/>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="oss-client-testing:ear exploded">
+    <output-path>$PROJECT_DIR$/task-scheduler/oss-client-testing/target/oss-client-testing-1.0</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="oss-client-testing/javaeeApplication/JavaEE" />
+      <element id="dir-copy" path="$PROJECT_DIR$/task-scheduler/oss-client-testing/src/main/application" />
+      <element id="library" level="project" name="Maven: com.claro.cfc:testing-activator:ejb:1.0" />
+    </root>
+  </artifact>
+</component>

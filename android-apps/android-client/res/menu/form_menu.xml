@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:self="http://schemas.android.com/apk/res/com.claro.cfcmobile">
+
+    <item
+            android:id="@id/action_form_send"
+            self:showAsAction="always"
+            android:title="Enviar Formulario"
+            android:icon="@drawable/ic_action_send_now"
+            android:orderInCategory="1"
+            />
+</menu>

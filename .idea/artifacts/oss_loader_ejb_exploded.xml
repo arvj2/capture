@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="oss-loader:ejb exploded">
+    <output-path>$PROJECT_DIR$/task-scheduler/oss-loader/target/oss-loader-1.5</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="oss-loader/ejb/EJB" />
+      <element id="module-output" name="oss-loader" />
+    </root>
+  </artifact>
+</component>

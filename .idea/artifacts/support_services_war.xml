@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="support-services:war">
+    <output-path>$PROJECT_DIR$/web-apps/cfc-services/support-services/target</output-path>
+    <root id="archive" name="support-services-2.5.war">
+      <element id="artifact" artifact-name="support-services:war exploded" />
+    </root>
+  </artifact>
+</component>

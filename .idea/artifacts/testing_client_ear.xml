@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="testing-client:ear">
+    <output-path>$PROJECT_DIR$/task-scheduler/oss-testing-client/testing-client/target</output-path>
+    <root id="archive" name="testing-client-1.0.ear">
+      <element id="artifact" artifact-name="testing-client:ear exploded" />
+    </root>
+  </artifact>
+</component>

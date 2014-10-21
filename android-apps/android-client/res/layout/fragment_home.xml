@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:custom="http://schemas.android.com/apk/res/com.claro.cfcmobile"
+             android:id="@id/feedback_flipper"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+
+    <LinearLayout
+            android:id="@id/progress_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+        <ProgressBar
+                android:layout_width="@dimen/dp_30"
+                android:layout_height="@dimen/dp_30"
+                style="@android:style/Widget.Holo.Light.ProgressBar.Large"
+                />
+
+        <com.claro.cfcmobile.widget.TextView
+                android:layout_marginLeft="@dimen/dp_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cargando Items..."
+                custom:typeface="robotoLight"
+                />
+    </LinearLayout>
+
+    <com.claro.cfcmobile.widget.TextView
+            android:id="@id/no_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            custom:typeface="robotoLight"
+            android:text="@string/empty_content"
+            android:gravity="center"
+            android:textSize="@dimen/sp_20"
+            />
+
+
+    <ListView
+            android:id="@id/list_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:soundEffectsEnabled="false"
+            android:cacheColorHint="@android:color/transparent"
+            android:background="@color/bg_light"/>
+
+</ViewFlipper>

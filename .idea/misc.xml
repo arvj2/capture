@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="ejb" url="file://$PROJECT_DIR$/task-scheduler/oss-geff-client/oss-geff-activator" />
+    <file type="ejb" url="file://$PROJECT_DIR$/task-scheduler/oss-loader" />
+    <file type="ejb" url="file://$PROJECT_DIR$/task-scheduler/oss-m6-client/oss-m6-activator" />
+    <file type="ejb" url="file://$PROJECT_DIR$/task-scheduler/oss-testing-client/oss-activator" />
+    <file type="ejb" url="file://$PROJECT_DIR$/task-scheduler/service-loader" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/task-scheduler/oss-client-testing" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/task-scheduler/oss-geff-client/oss-geff" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/task-scheduler/oss-m6-client/oss-m6" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/task-scheduler/oss-scheduler" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/task-scheduler/oss-testing-client/testing-client" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/task-scheduler/task-schedulers" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/web-apps/cfc-webear" />
+    <file type="web" url="file://$PROJECT_DIR$/task-scheduler/scheduler-manager" />
+    <file type="web" url="file://$PROJECT_DIR$/task-scheduler/service-loader" />
+    <file type="web" url="file://$PROJECT_DIR$/tasks-report" />
+    <file type="web" url="file://$PROJECT_DIR$/web-apps/cfc-services/support-services" />
+    <file type="web" url="file://$PROJECT_DIR$/web-apps/cfc-webapp" />
+    <file type="web" url="file://$PROJECT_DIR$/web-apps/cfc-webroot" />
+    <file type="web" url="file://$PROJECT_DIR$/web-apps/services/android-services" />
+    <file type="web" url="file://$PROJECT_DIR$/web-apps/services/general-services" />
+  </component>
+  <component name="IdProvider" IDEtalkID="CD12768373A8F6877058D02EA44BED7F" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/task-scheduler/scheduler-manager/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/android/pom.xml" />
+        <option value="$PROJECT_DIR$/cfc-persistence/pom.xml" />
+        <option value="$PROJECT_DIR$/persistence-test/pom.xml" />
+        <option value="$PROJECT_DIR$/task-scheduler/oss-client-testing/pom.xml" />
+        <option value="$PROJECT_DIR$/task-scheduler/oss-testing-client/pom.xml" />
+        <option value="$PROJECT_DIR$/task-scheduler/oss-testing/pom.xml" />
+        <option value="$PROJECT_DIR$/task-scheduler/pom.xml" />
+        <option value="$PROJECT_DIR$/task-scheduler/root-signal/pom.xml" />
+        <option value="$PROJECT_DIR$/task-scheduler/service-loader/pom.xml" />
+        <option value="$PROJECT_DIR$/task-scheduler/task-schedulers/pom.xml" />
+        <option value="$PROJECT_DIR$/task-scheduler/tsspec/pom.xml" />
+        <option value="$PROJECT_DIR$/web-apps-test/pom.xml" />
+        <option value="$PROJECT_DIR$/web-apps/domain-enviroments/pom.xml" />
+        <option value="$PROJECT_DIR$/web-apps/domain-transport-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/web-apps/mobile-app-updater/pom.xml" />
+        <option value="$PROJECT_DIR$/web-apps/persistence/pom.xml" />
+        <option value="$PROJECT_DIR$/web-apps/services/common-services/pom.xml" />
+        <option value="$PROJECT_DIR$/web-apps/services/pom.xml" />
+        <option value="$PROJECT_DIR$/web-apps/shared/pom.xml" />
+        <option value="$PROJECT_DIR$/web/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+</project>
+

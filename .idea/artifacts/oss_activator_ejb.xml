@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="oss-activator:ejb">
+    <output-path>$PROJECT_DIR$/task-scheduler/oss-testing-client/oss-activator/target</output-path>
+    <root id="archive" name="oss-activator-1.0.jar">
+      <element id="artifact" artifact-name="oss-activator:ejb exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="+" />
+        <module name="android-apps" />
+        <module name="android-services" />
+        <module name="cfc-app-updater" />
+        <module name="cfc-environments" />
+        <module name="cfc-persistence" />
+        <module name="cfc-transport-utils" />
+        <module name="cfc-webapp" />
+        <module name="cfc-webear" />
+        <module name="cfc-webroot" />
+        <module name="common-services" />
+        <module name="oss-environments" />
+        <module name="oss-geff" />
+        <module name="oss-geff-activator" />
+        <module name="oss-loader" />
+        <module name="oss-m6" />
+        <module name="oss-m6-activator" />
+        <module name="oss-scheduler" />
+        <module name="oss-specification" />
+        <module name="oss-utils" />
+        <module name="scheduler-manager" />
+        <module name="support-services" />
+        <module name="tasks-report" />
+        <module name="testing-activator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="+" target="1.6" />
+      <module name="android-services" target="1.6" />
+      <module name="cfc-app-updater" target="1.6" />
+      <module name="cfc-environments" target="1.6" />
+      <module name="cfc-persistence" target="1.6" />
+      <module name="cfc-services" target="1.6" />
+      <module name="cfc-transport-utils" target="1.6" />
+      <module name="cfc-webapp" target="1.6" />
+      <module name="cfc-webear" target="1.6" />
+      <module name="cfc-webroot" target="1.6" />
+      <module name="common-services" target="1.6" />
+      <module name="domain-enviroments" target="1.6" />
+      <module name="domain-transport-utils" target="1.6" />
+      <module name="general-services" target="1.6" />
+      <module name="mobile-app-updater" target="1.6" />
+      <module name="persistence" target="1.6" />
+      <module name="services" target="1.6" />
+      <module name="shared" target="1.6" />
+      <module name="support-services" target="1.6" />
+      <module name="web-apps" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
+

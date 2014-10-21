@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="oss-activator:ejb exploded">
+    <output-path>$PROJECT_DIR$/task-scheduler/oss-testing-client/oss-activator/target/oss-activator-1.0</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="oss-activator/ejb/EJB" />
+      <element id="module-output" name="oss-activator" />
+    </root>
+  </artifact>
+</component>

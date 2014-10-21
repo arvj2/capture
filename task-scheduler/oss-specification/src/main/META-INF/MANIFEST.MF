@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Specification-Title: OSS Task Scheduler Specification
+Specification-Vendor: Claro RD
+Specification-Version: 1.0
+Implementation-Title: OSS Task Scheduler Specification Implementation
+Implementation-Version: 1.5
+Implementation-Vendor: Claro RD
+Extension-Name: oss-specification

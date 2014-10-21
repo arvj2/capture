@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+      <!--<property name="connection.url">jdbc:oracle:thin:@//172.27.6.78:1521/appceltec</property>-->
+      <!--<property name="connection.username">APPCAPFAC</property>-->
+      <!--<property name="connection.password">NRe58TMLdk</property>-->
+
+      <!--<property name="query.factory_class">org.hibernate.hql.classic.ClassicQueryTranslatorFactory</property>-->
+      <property name="hibernate.connection.driver_class">oracle.jdbc.OracleDriver</property>
+      <property name="jndi.class">weblogic.jndi.WLInitialContextFactory</property>
+      <property name="connection.datasource">cfc_scheduler_datasource</property>
+      <property name="connection.driver_class">oracle.jdbc.OracleDriver</property>
+      <property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+
+
+      <property name="hibernate.show_sql">true</property>
+      <property name="hibernate.transaction.flush_before_completion">true</property>
+      <property name="hibernate.transaction.auto_close_session">true</property>
+
+      <!--<property name="jndi.class">weblogic.jndi.WLInitialContextFactory</property>-->
+      <!--<property name="connection.datasource">jdbc/cfc_datasource</property>-->
+
+
+      <!--<property name="hbm2ddl.auto">update</property>-->
+      <property name="hibernate.current_session_context_class">org.hibernate.context.ThreadLocalSessionContext</property>
+
+      <mapping class="com.claro.cfc.scheduler.services.TaskEntity"/>
+      <mapping class="com.claro.cfc.scheduler.services.TaskLogEntity"/>
+      <mapping class="com.claro.cfc.scheduler.services.TaskResponseTypeEntity"/>
+      <mapping class="com.claro.cfc.scheduler.services.TaskServiceEntity"/>
+      <mapping class="com.claro.cfc.scheduler.services.TaskStatusEntity"/>
+      <mapping class="com.claro.cfc.scheduler.services.TaskTypeEntity"/>
+      <mapping class="com.claro.cfc.scheduler.services.ActionValuesEntity"/>
+
+      <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>

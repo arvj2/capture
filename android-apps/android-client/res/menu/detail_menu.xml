@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:self="http://schemas.android.com/apk/res/com.claro.cfcmobile">
+
+<item
+        android:id="@id/app_menu_di_form"
+        self:showAsAction="always"
+        android:title="Editar Formulario"
+        android:icon="@drawable/ic_action_copy"
+        android:orderInCategory="1"
+        />
+</menu>

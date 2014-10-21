@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: jersey-grizzly:jersey-grizzly:1.18.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/jersey-grizzly/jersey-grizzly/1.18.1/jersey-grizzly-1.18.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/jersey-grizzly/jersey-grizzly/1.18.1/jersey-grizzly-1.18.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/jersey-grizzly/jersey-grizzly/1.18.1/jersey-grizzly-1.18.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

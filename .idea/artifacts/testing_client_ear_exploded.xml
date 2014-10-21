@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="testing-client:ear exploded">
+    <output-path>$PROJECT_DIR$/task-scheduler/oss-testing-client/testing-client/target/testing-client-1.0</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="testing-client/javaeeApplication/JavaEE" />
+      <element id="dir-copy" path="$PROJECT_DIR$/task-scheduler/oss-testing-client/testing-client/src/main/application" />
+      <element id="archive" name="oss-activator-1.0.jar">
+        <element id="artifact" artifact-name="oss-activator:ejb exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="archive" name="oss-specification-1.5.jar">
+          <element id="module-output" name="oss-specification" />
+        </element>
+        <element id="library" level="project" name="Maven: javax.ejb:ejb-api:3.0" />
+        <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+      </element>
+    </root>
+  </artifact>
+</component>

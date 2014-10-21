@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:self="http://schemas.android.com/apk/res/com.claro.cfcmobile">
+    <item
+            android:id="@+id/action_bar_progress"
+            self:showAsAction="always"
+            android:title="Refresh"
+            android:icon="@drawable/ic_action_refresh"
+            android:orderInCategory="1"
+
+            />
+    <item android:id="@+id/action_settings"
+          android:title="@string/action_settings"
+          self:showAsAction="never"
+            />
+
+</menu>

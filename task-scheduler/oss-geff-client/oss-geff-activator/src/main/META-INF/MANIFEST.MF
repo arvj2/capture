@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Extension-List: internal
+internal-Extension-Name: oss-specification
+internal-Specification-Version: 1.0

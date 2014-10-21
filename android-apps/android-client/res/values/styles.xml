@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.AppCompat.Light.Button" parent="android:Widget.Button">
+        <item name="android:minWidth">64dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="Widget.AppCompat.TextView" parent="android:Widget.TextView">
+        <item name="typeface">robotoRegular</item>
+        <item name="android:textColor">@color/form_text_color</item>
+        <item name="android:layout_marginTop">@dimen/dp_4</item>
+    </style>
+
+</resources>

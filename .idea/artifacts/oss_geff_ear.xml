@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="oss-geff:ear">
+    <output-path>$PROJECT_DIR$/task-scheduler/oss-geff-client/oss-geff/target</output-path>
+    <root id="archive" name="oss-geff-1.0.ear">
+      <element id="artifact" artifact-name="oss-geff:ear exploded" />
+    </root>
+  </artifact>
+</component>

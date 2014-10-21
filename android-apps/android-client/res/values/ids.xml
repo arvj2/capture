@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="content" type="id"/>
+    <item name="text1" type="id"></item>
+
+    <item name="feedback_flipper" type="id"/>
+    <item name="feedback_flipper2" type="id"/>
+    <item name="image1" type="id"/>
+    <item name="feedback_content" type="id"/>
+    <item name="feedback_error_text" type="id"/>
+    <item name="feedback_loading_text" type="id"/>
+    <item name="button1" type="id"/>
+    <item name="tarjeta_edit" type="id"/>
+    <item name="logo_content" type="id"/>
+
+    <item name="list_content" type="id"/>
+    <item name="no_content" type="id"/>
+    <item name="budget_count" type="id"/>
+    <item name="item_type" type="id"/>
+    <item name="progress_content" type="id"/>
+    <item name="cfc_title" type="id"/>
+    <item name="item_type_up" type="id"/>
+    <item name="app_overflow_menu" type="id"/>
+    <item name="app_menu_di_detail" type="id"/>
+    <item name="app_menu_di_form" type="id"/>
+    <item name="item_id" type="id"/>
+    <item name="item_sent" type="id"/>
+    <item name="item_di_type" type="id"/>
+    <item name="item_date" type="id"/>
+    <item name="item_tech" type="id"/>
+    <item name="key" type="id"/>
+    <item name="value" type="id"/>
+
+    <item name="action_form_send" type="id"/>
+    <item name="edit_phone" type="id"/>
+    <item name="edit_cabina" type="id"/>
+    <item name="edit_cuenta_fija" type="id"/>
+    <item name="edit_par_feeder" type="id"/>
+    <item name="edit_par_local" type="id"/>
+    <item name="edit_direccion" type="id"/>
+    <item name="edit_localidad" type="id"/>
+    <item name="edit_puerto" type="id"/>
+    <item name="edit_puerto_specificacion" type="id"/>
+    <item name="edit_terminal" type="id"/>
+    <item name="edit_terminal_fo" type="id"/>
+    <item name="edit_terminal_fibra" type="id"/>
+    <item name="label_cabina" type="id"/>
+    <item name="label_par_local" type="id"/>
+    <item name="edit_splitter_port" type="id"/>
+    <item name="edit_dslam" type="id"/>
+    <item name="check_direccion" type="id"/>
+
+
+</resources>

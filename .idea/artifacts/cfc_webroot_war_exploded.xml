@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cfc-webroot:war exploded">
+    <output-path>$PROJECT_DIR$/web-apps/cfc-webroot/target/cfc-webroot-2.5</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="cfc-webroot/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cfc-webroot" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
